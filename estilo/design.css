@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'robo';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
 body{
     background-color: #3DDC84;
 }
@@ -21,7 +25,7 @@ header > h2{
     text-align: center;
     font-size: 15px;
     margin: 10px;
-    padding-top: 9px;
+    padding-top: 13px;
     padding-bottom: 30px;
 
 }
@@ -30,12 +34,38 @@ nav{
 }
 nav > ul > li > a{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     color:#fff;
+
 }
 nav > ul > li > a:hover{
     background-color: #092510a4;
 }
 nav > ul> li{
          display: inline-block;
-         padding: 2px;
+         padding: 5px;
+}
+main{
+    background-color: #ffffff;
+    width: 850px;
+    margin: auto;
+    
+}
+p{   
+    text-indent: 30px;
+    text-justify: auto;
+    padding: 15px;
+    
+}
+.subtituloRobotico{
+    padding: 9px;
+    color:#092510e8;
+    font-family: 'robo',Arial, Helvetica, sans-serif;
+}
+p > strong{
+    color: #04270dde;
+}
+
+.fotos{
+    margin: 0px 0px 0px -20px;
 }
