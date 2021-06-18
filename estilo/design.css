@@ -27,7 +27,7 @@ header > h2{
     font-size: 15px;
     margin: 10px;
     padding-top: 13px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
 
 }
 nav{
@@ -48,7 +48,7 @@ nav > ul> li{
 }
 main{
     background-color: #ffffff;
-    width: 850px;
+    width: 900px;
     margin: auto;
     
 }
@@ -68,5 +68,5 @@ p > strong{
 }
 
 .fotos{
-    margin: 0px 0px 0px -20px;
+   /* margin: 0px 0px 0px -20px;*/
 }
